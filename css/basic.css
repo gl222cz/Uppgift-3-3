@@ -32,8 +32,6 @@ topbar - #51473d
     font-size: 0.60em;
     color: #eae7d2;
  
-
-
 }
 
 /* --------------------------------------------*/
@@ -80,9 +78,20 @@ topbar - #51473d
 	text-transform: capitalize;
 	background-color: #797066;
 	padding-top: 9px;
-	padding-bottom: 9px;
+	padding-bottom: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
+}
+#menu .active a
+{
+    color: #888076;
+    background: #eae7d2;
+}
+
+#menu ul li a:hover
+{
+	color: #eae7d2;
+	background-color: #9c9084;
 }
 /* --------------------------------------------*/
 /* content */
@@ -126,8 +135,8 @@ topbar - #51473d
 
 h2{
     font-family:times, sans-serif; 
-    font-size:12px;
-    font-style:normal;
+    font-size:14px;
+    font-weight:normal;
 }
 /* --------------------------------------------*/
 /* subcontent */
@@ -141,15 +150,16 @@ h2{
 
 #subcontent li {
     display: block;
-    
 }
+#subcontent ul
+{
+    font-size: 12px;
+}
+
 #subcontent h1 {
     font-size: 18px;
 }
-#subcontent h2
-{
-    font-weight: normal;
-}
+
 /* --------------------------------------------*/
 /* bottomcontent */
 /* --------------------------------------------*/  
