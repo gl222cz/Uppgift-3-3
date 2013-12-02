@@ -151,18 +151,19 @@ topbar - #51473d
 
 #subcontent li {
     display: block;
+    font-family:verdana, sans-serif;
 }
 #subcontent ul
 {
-    font-size: 12px;
-    background-color: #51473d;
-    
+    font-size: 13px;
 }
 
-#subcontent
+#subcontent ul, li, a {
+    color: #51473d;
+}
 
 #subcontent h1 {
-    font-family:times, sans-serif; 
+    font-family:"times new roman", sans-serif; 
     font-size: 16px;
     font-weight: lighter;
 }
