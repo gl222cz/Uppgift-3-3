@@ -79,7 +79,7 @@ topbar - #51473d
 	text-transform: capitalize;
 	background-color: #797066;
 	padding-top: 9px;
-	padding-bottom: 10px;
+	padding-bottom: 12px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
@@ -172,8 +172,8 @@ h2{
     font-family:times, sans-serif; 
     font-size:14px;
     font-weight:normal;
-    padding-bottom: 0px; /* OKLART, FRÅGA OM HJÄLP*/
-    padding-top: 40px;
+    margin-bottom: -15px;
+    margin-top: 45px;
 }
 /* --------------------------------------------*/
 /* bottomcontent */
