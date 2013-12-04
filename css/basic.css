@@ -79,7 +79,7 @@ topbar - #51473d
 	text-transform: capitalize;
 	background-color: #797066;
 	padding-top: 9px;
-	padding-bottom: 11px;
+	padding-bottom: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
@@ -122,9 +122,10 @@ topbar - #51473d
     border-right: dashed Gray 1px;
     margin-right: 8px;
     padding: 7px;
+
 }
 #maincontent p {
-    font-weight:lighter; /*FIXA TEXTEN*/
+    font-weight:lighter; 
 }
 
 
