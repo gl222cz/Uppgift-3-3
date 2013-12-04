@@ -79,7 +79,7 @@ topbar - #51473d
 	text-transform: capitalize;
 	background-color: #797066;
 	padding-top: 9px;
-	padding-bottom: 12px;
+	padding-bottom: 11px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
@@ -110,8 +110,9 @@ topbar - #51473d
 	border-bottom: 1px solid gray;
 	padding-top: 10px;
 	padding-right: 10px;
-	padding-bottom: 10px;
 	padding-left: 10px;
+	padding-bottom: 10px;
+
 }
 #maincontent
 {
@@ -145,8 +146,8 @@ topbar - #51473d
 #subcontent
 {
     padding-top: 17px;
-    margin: auto;
     font-size: 10px;
+    height: auto;
 }
 
 #subcontent li {
