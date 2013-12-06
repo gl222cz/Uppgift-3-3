@@ -6,6 +6,10 @@ menu - #797066
 topbar - #51473d
 */
 
+/*
+Menyn skjuts upp en aning i IE. Så öppna helst i Chrome
+*/
+
 #container
 {
     margin:auto;
@@ -79,7 +83,7 @@ topbar - #51473d
 	text-transform: capitalize;
 	background-color: #797066;
 	padding-top: 9px;
-	padding-bottom: 10px;
+	padding-bottom: 12px;
 	padding-right: 20px;
 	padding-left: 20px;
 }
